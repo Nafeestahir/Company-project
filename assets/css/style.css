@@ -1,0 +1,162 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+h1 {
+    font-size: 63px !important;
+    font-family: inherit;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 24px !important;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 19px !important;
+    line-height: 1.375em !important;
+    color: #303030 !important;
+    font-weight: 400 !important;
+    margin-bottom: 30px !important;
+}
+
+.container-fluid {
+    padding: 60px 50px !important;
+}
+
+.navbar {
+    background-color: #f4511e;
+    z-index: 100;
+    border: 0;
+    letter-spacing: 4px;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar-nav li .active,
+.navbar-nav li .show {
+    color: red !important;
+    background-color: #fff !important;
+}
+
+.navbar .navbar-brand {
+    font-size: 18px;
+}
+
+.navbar li a {
+    font-size: 12px;
+    color: #fff;
+    padding: 15px;
+}
+
+.nav-item:hover .nav-link,
+.nav-item:focus .nav-link,
+.nav-item:focus,
+.nav-item:hover {
+    color: red;
+    background-color: #fff;
+}
+
+/* about-page */
+.about-page {
+    background-color: #f4511e;
+    padding: 100px 25px;
+}
+
+.about-page .input-group {
+    width: auto;
+}
+
+/* about-section */
+.btn-default {
+    border-color: #adadad !important;
+}
+
+.btn-default:hover {
+    background-color: #e6e6e6 !important;
+
+}
+
+.btn-default:active {
+    border: 1px solid black !important;
+}
+
+.col-md-4 i {
+    color: red;
+    font-size: 200px;
+}
+
+/* our-value */
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+/* services */
+.small-logo i {
+    color: red;
+    font-size: 50px;
+}
+
+/* portfolio */
+.carousel-item h4 {
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.carousel-control-prev span i,
+.carousel-control-next span i {
+    font-size: 30px;
+    color: red;
+}
+
+.carousel-indicators {
+    bottom: -29px !important;
+}
+
+.carousel-indicators .active {
+    background-color: red !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 13px !important;
+    height: 13px !important;
+    border: 1px solid red !important;
+    border-radius: 50% !important;
+}
+
+/* pricing */
+.panel {
+    cursor: pointer;
+}
+
+.panel-header h1 {
+    font-size: 36px !important;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+/* footer */
+footer span i {
+    font-size: 20px;
+    color: #f4511e;
+}
+
+@media screen and (max-width:768px) {
+    .col-md-4 i {
+        color: red;
+        font-size: 150px;
+    }
+
+    .small-logo i {
+        color: red;
+        font-size: 50px;
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+}
